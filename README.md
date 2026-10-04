@@ -4,7 +4,7 @@ An assortment of random projects I've made.
 
 These projects helped me to practice my programming skills as well as study for my courses.
 
-I also have this available publicly to shows others my programming skills I've learned.
+I also have this available publicly to show others my programming skills I've learned.
 
 Any code made by using AI will be clearly marked in the comments, however the goal was to use as little AI as possible.
 
