@@ -11,7 +11,7 @@ Any code made by using AI will be clearly marked in the comments, however the go
 Projects are sorted by the language they were programmed in.
 
 I'd also like to give credit to W3 Schools for helping me with basics in each language, as well as my college Professors 
-(Especially Dr. Williams, this would have never been made if I didn't take you Intro to Programming. class. Thank you so much!)
+(Especially Dr. Williams, this would have never been made if I didn't take your Intro to Programming. class. Thank you so much!)
 
 This repo is under a GNU GPL 3.0 License, feel free to do whatever with the repo as long as you abide by the license.
 
