@@ -58,10 +58,10 @@ def exponentiation(num1: float, num2: float) -> float:
 
         Args:
             num1: base
-            num2: exponet
+            num2: exponent
 
         Returns:
-            The value of the base times itself the amount of the exponet times
+            The value of the base times itself the amount of the exponent times
     """
 
     return num1 ** num2
@@ -70,7 +70,7 @@ def main():
     keep_running = True
     choice = 0
     while keep_running == True:
-        print("Austin's Calculator (Version 0.1.0)")
+        print("Austin's Calculator (Version 0.1.2)")
         print("Options: ")
         print("Type 0 to Quit")
         print("Type 1 to do Addition")
@@ -105,7 +105,7 @@ def main():
             print(division(val1, val2))
         elif choice == 5:
             val1 = float(input("Please enter the base: "))
-            val2 = float(input("Please enter the exponet"))
+            val2 = float(input("Please enter the exponent"))
 
             print(exponentiation(val1, val2))
         else:
