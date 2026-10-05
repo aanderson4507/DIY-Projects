@@ -77,7 +77,7 @@ def main():
         print("Type 2 to do Subtraction")
         print("Type 3 to do Multiplication")
         print("Type 4 to do Division")
-        print("Typr 5 to do Exponentiation")
+        print("Type 5 to do Exponentiation")
 
         choice = int(input("Please make a selection: "))
 
