@@ -105,7 +105,7 @@ def main():
             print(division(val1, val2))
         elif choice == 5:
             val1 = float(input("Please enter the base: "))
-            val2 = float(input("Please enter the exponent"))
+            val2 = float(input("Please enter the exponent: "))
 
             print(exponentiation(val1, val2))
         else:
