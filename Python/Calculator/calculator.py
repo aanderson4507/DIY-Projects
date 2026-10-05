@@ -53,6 +53,19 @@ def division(num1: float, num2: float) -> float | str:
     #Note: Division always results in a float 
     return num1 / num2
 
+def exponentiation(num1: float, num2: float) -> float:
+    """This function raises one number by another
+
+        Args:
+            num1: base
+            num2: exponet
+
+        Returns:
+            The value of the base times itself the amount of the exponet times
+    """
+
+    return num1 ** num2
+
 def main():
     keep_running = True
     choice = 0
@@ -64,7 +77,7 @@ def main():
         print("Type 2 to do Subtraction")
         print("Type 3 to do Multiplication")
         print("Type 4 to do Division")
-        print("\n")
+        print("Typr 5 to do Exponentiation")
 
         choice = int(input("Please make a selection: "))
 
@@ -90,6 +103,11 @@ def main():
             val2 = float(input("Please enter the divisor: "))
 
             print(division(val1, val2))
+        elif choice == 5:
+            val1 = float(input("Please enter the base: "))
+            val2 = float(input("Please enter the exponet"))
+
+            print(exponentiation(val1, val2))
         else:
             print("Please select one of the available options")
 
